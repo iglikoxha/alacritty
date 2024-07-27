@@ -3,9 +3,15 @@ import = ["~/.config/alacritty/themes/themes/solarized_osaka.toml"]
 [env]
 TERM = "xterm-256color"
 
+[window]
+opacity = 0.9
+
 [font]
 normal = { family = "FiraCode Nerd Font Propo", style = "Regular" }
 size = 22
 
-[window]
-opacity = 0.9
+[keyboard]
+bindings = [
+  { key = "ArrowRight", mods = "Command", action = "SelectNextTab" },
+  { key = "ArrowLeft", mods = "Command", action = "SelectPreviousTab" },
+]
