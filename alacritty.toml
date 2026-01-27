@@ -1,17 +1,6 @@
-import = ["~/.config/alacritty/themes/themes/solarized_osaka.toml"]
-
-[env]
-TERM = "xterm-256color"
-
-[window]
-opacity = 0.9
-
-[font]
-normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
-size = 22
-
-[keyboard]
-bindings = [
-  { key = "ArrowRight", mods = "Command", action = "SelectNextTab" },
-  { key = "ArrowLeft", mods = "Command", action = "SelectPreviousTab" },
+[general]
+# OS-specific configs - only the one that exists on this system will load
+import = [
+    "~/.config/alacritty/macos.toml",           # macOS overrides
+    "~/AppData/Roaming/alacritty/windows.toml"  # Windows overrides
 ]

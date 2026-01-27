@@ -1,0 +1,15 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.9
+
+[font]
+normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
+size = 22
+
+[keyboard]
+bindings = [
+  { key = "ArrowRight", mods = "Command", action = "SelectNextTab" },
+  { key = "ArrowLeft", mods = "Command", action = "SelectPreviousTab" },
+]
