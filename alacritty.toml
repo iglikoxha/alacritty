@@ -2,5 +2,6 @@
 # OS-specific configs - only the one that exists on this system will load
 import = [
     "~/.config/alacritty/macos.toml",           # macOS overrides
-    "~/AppData/Roaming/alacritty/windows.toml"  # Windows overrides
+    "~/AppData/Roaming/alacritty/windows.toml", # Windows overrides
+    "cursor-dark.toml"
 ]
